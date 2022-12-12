@@ -1,0 +1,11 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+build:
+  project: GMSAPasswordReader.sln
+  parallel: true
+  verbosity: minimal
+artifacts:
+- path: GMSAPasswordReader\Release\x64\*.exe
+only_commits:
+  files:
+    - GMSAPasswordReader/
