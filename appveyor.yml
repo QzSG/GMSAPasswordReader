@@ -7,7 +7,7 @@ build:
   parallel: true
   verbosity: minimal
 artifacts:
-- path: GMSAPasswordReader\Release\x64\*.exe
+- path: gmsapasswordreader\bin\Debug\*.exe
 only_commits:
   files:
     - GMSAPasswordReader/
